@@ -1,0 +1,65 @@
+{
+  "templates_dir": "templates",
+  "sample_data": {
+    "nome": "Maria das Dores da Silva dos Santos",
+    "curso_nome": "Formação em Avaliação Educacional",
+    "carga_horaria_texto": "20 hora(s)",
+    "conclusao_texto": "15/09/2025",
+    "orgao_nome": "Secretaria Municipal de Educação",
+    "cod_validacao_texto": "Código de validação: ABC123XYZ7890001",
+    "ementa": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget tortor non turpis lacinia tristique.",
+    "dizeres": "portador(a) do CPF 123.***.***-11, por concluir o curso Formação em Avaliação Educacional em 15/09/2025, com carga horária de 20 hora(s)."
+  },
+  "layouts": {
+    "default": [
+      {
+        "text_key": "nome",
+        "label": "Nome",
+        "page": 0,
+        "x": 60.0,
+        "y": 320.0,
+        "font_size": 32,
+        "align": "center",
+        "max_width": 722,
+        "line_spacing": 1.2,
+        "enabled": true
+      },
+      {
+        "text_key": "dizeres",
+        "label": "Dizeres",
+        "page": 0,
+        "x": 60.0,
+        "y": 260.0,
+        "font_size": 16,
+        "align": "center",
+        "max_width": 722,
+        "line_spacing": 1.2,
+        "enabled": true
+      },
+      {
+        "text_key": "ementa",
+        "label": "Ementa",
+        "page": 1,
+        "x": 80.0,
+        "y": 470.0,
+        "font_size": 16,
+        "align": "left",
+        "max_width": 625,
+        "line_spacing": 1.2,
+        "enabled": true
+      },
+      {
+        "text_key": "cod_validacao_texto",
+        "label": "Código de validação",
+        "page": 1,
+        "x": 230.0,
+        "y": 45.0,
+        "font_size": 12,
+        "align": "left",
+        "max_width": 600,
+        "line_spacing": 1.2,
+        "enabled": true
+      }
+    ]
+  }
+}
